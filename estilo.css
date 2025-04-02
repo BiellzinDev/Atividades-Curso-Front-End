@@ -1,0 +1,114 @@
+html{
+    font-size: 62.5%;
+}
+:root{
+    --primeira-cor:#FF7833;
+    --segunda-cor:#31333B;
+    --segunda-cor-light:#444856;
+
+}
+
+body{
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    color: #e7e7e7;
+    background-color: #ccc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    line-height: 1.7rem;
+}
+
+.main-header{
+    flex: 0 0 26rem;
+    background-color: var(--segunda-cor);
+    text-align: right;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: right;
+    text-align: right;
+
+}
+.main{
+    background-color: #454545;
+    flex: 1 0;
+    padding: 6.5rem 6rem 100vh;
+}
+
+a{
+    color: #e7e7e7;
+}
+
+.main,.main-header{
+    font-size: 1.6rem;
+}
+
+.img-perfil{
+    max-width: 10rem;
+}
+
+.head-li ,a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 2rem;
+    
+}
+
+.navegacao{
+    text-align: right;
+    padding: 6.5rem 2.4rem 2.4rem;
+
+}
+
+.navegacao ul{
+    padding: 0;
+}
+
+.navegacao ul a{
+    display: block;
+    padding: 1.2rem 0;
+    transition: padding-right .2s, background-color .4s;
+    background-color: transparent;
+}
+
+.navegacao ul a:hover{
+    background-color: var(--segunda-cor-light);
+    padding-right: 1rem;
+}
+
+.navegacao li{
+    padding: .4rem .4rem;
+    border-bottom: 1px solid #7b7b7b;
+}
+
+h1{
+    font-size: 3.2rem;
+    color: #7b7b7b;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+h2,h3,h4,h5,h6{
+    color: var(--primeira-cor);
+}
+
+.card{
+    max-width: 740px;
+    background-color: var(--segunda-cor);
+    padding: 0;
+
+}
+
+.card_container{
+    padding: .5em 1em 1em;
+}
+
+.card_container p, .card_title{
+    margin: 0;
+}
+
+.card_title{
+    font-size: 1.5em;
+}
